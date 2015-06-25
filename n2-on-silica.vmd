@@ -1,0 +1,18 @@
+# VMD for MACOSXX86, version 1.9.1 (February 4, 2012)
+# Log file 'vis.vis', created by user mattthompson
+mol modstyle 0 0 DynamicBonds 1.600000 0.300000 6.000000
+mol modselect 0 0 type 1 2 3
+mol color Name
+#mol representation DynamicBonds 1.600000 0.300000 6.000000
+#mol selection type 1 2 3
+mol material Opaque
+mol addrep 0
+mol modstyle 1 0 VDW 1.000000 12.000000
+mol representation VDW 1.0 12.0
+mol modselect 1 0 type 4
+mol addrep 0
+mol modstyle 1 0 VDW 0.600000 12.000000
+mol representation VDW 0.6 12.0
+mol modselect 1 0 type 3
+# VMD for MACOSXX86, version 1.9.1 (February 4, 2012)
+# end of log file.
