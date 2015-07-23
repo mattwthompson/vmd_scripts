@@ -1,31 +1,30 @@
 # VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
 # Log file 'h-cdc.log', created by user mattthompson
-menu graphics off
 menu graphics on
+mol addrep 0
+mol addrep 0
+mol addrep 0
+mol modstyle 0 0 DynamicBonds 2.000000 0.300000 20.000000
+mol modstyle 1 0 DynamicBonds 1.500000 0.300000 20.000000
+mol modstyle 2 0 VDW 0.200000 20.000000
+mol modstyle 3 0 VDW 0.200000 20.000000
 mol modselect 0 0 type 1
-mol modstyle 0 0 DynamicBonds 2.000000 0.300000 12.000000
-mol color Name
-mol representation DynamicBonds 2.000000 0.300000 12.000000
-mol selection type 1
-mol material Opaque
-mol addrep 0
 mol modselect 1 0 within 1.5 of type 2
-mol modstyle 1 0 DynamicBonds 1.500000 0.300000 12.000000
-mol color Name
-mol representation DynamicBonds 1.500000 0.300000 12.000000
-mol selection within 1.5 of type 2
-mol material Opaque
-mol addrep 0
-mol modselect 2 0 all
-mol modstyle 2 0 VDW 0.200000 12.000000
+mol modselect 2 0 type 1
+mol modselect 3 0 type 2
+mol modcolor 0 0 ColorID 6
+mol modcolor 1 0 ColorID 10
+mol modcolor 2 0 ColorID 6
+mol modcolor 3 0 ColorID 10
 mol modmaterial 0 0 AOEdgy
 mol modmaterial 1 0 AOEdgy
 mol modmaterial 2 0 AOEdgy
-menu display off
+mol modmaterial 3 0 AOEdgy
 menu display on
+axes location Off
 display ambientocclusion on
-menu render off
 menu render on
+display resize 1000 1000
 #render TachyonInternal vmdscene.tga /usr/bin/open %s
 # VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
 # end of log file.
