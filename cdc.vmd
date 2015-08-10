@@ -116,4 +116,4 @@ mol addrep 0
 mol modrep 0 0
 display resize 1100 1100
 #render Tachyon vmdscene.dat "tachyon -aasamples 12 %s -format TARGA -res 1200 1200 -o %s.tga"
-exit
+#exit
