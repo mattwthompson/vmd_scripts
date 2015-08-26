@@ -8,7 +8,6 @@ rotate y by -25
 rotate x by 15
 menu render on
 mol addrep 0
-mol addrep 0
 mol modselect 0 0 type 1 or type C
 mol modselect 1 0 type 1 or type C
 mol modstyle 0 0 DynamicBonds 2.0 0.1 20.0
