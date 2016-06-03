@@ -9,9 +9,9 @@ menu render on
 mol addrep 0
 mol modselect 0 0 resname GPH 
 mol modselect 1 0 resname SOL 
-mol modstyle 0 0 VDW 1.0 20.0
-mol modstyle 1 0 CPK 3 0 20 0 
+mol modstyle 0 0 VDW 1.0 18.0
+mol modstyle 1 0 CPK 3 0.3 18 12 
 mol modcolor 0 0 ColorID 6
 mol modcolor 1 0 Name 
-mol modmaterial 0 0 AOEdgy
-mol modmaterial 1 0 AOEdgy
+mol modmaterial 0 0 Edgy 
+mol modmaterial 1 0 EdgyShiny
