@@ -4,19 +4,25 @@ axes location Off
 menu display on
 menu graphics on
 display ambientocclusion on
+rotate y by 90
 menu render on
 mol addrep 0
 mol addrep 0
-mol modselect 0 0 resname GPH
-mol modselect 1 0 resname EMIM
-mol modselect 2 0 resname Tf2N
-mol modstyle 0 0 VDW 0.5 10.0
-mol modstyle 1 0 VDW 0.8 20.0
+mol addrep 0
+mol modselect 0 0 type Bi
+mol modselect 1 0 resname ACN 
+mol modselect 2 0 resname BMIM
+mol modselect 3 0 resname BF4
+mol modstyle 0 0 VDW 0.2 20.0
+mol modstyle 1 0 DynamicBonds 1.5 0.1 10
 mol modstyle 2 0 VDW 0.8 10.0
+mol modstyle 3 0 VDW 0.8 10.0
 mol modcolor 0 0 ColorID 6
-mol modcolor 1 0 ColorID 7
+mol modcolor 1 0 ColorID 10
 mol modcolor 2 0 ColorID 1
+mol modcolor 3 0 ColorID 2
 mol modmaterial 0 0 AOEdgy
 mol modmaterial 1 0 AOEdgy
 mol modmaterial 2 0 AOEdgy
-display resize 1800 400
+mol modmaterial 3 0 AOEdgy
+#display resize 1100 1100
