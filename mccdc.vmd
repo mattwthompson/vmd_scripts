@@ -1,0 +1,21 @@
+# VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+rotate x by -22
+rotate y by -52
+rotate z by 32
+mol addrep 0
+mol modselect 0 0 element H
+mol modselect 1 0 element He
+mol modstyle 0 0 VDW 0.6 20
+mol modstyle 1 0 VDW 0.6 20
+mol modcolor 0 0 ColorID 16
+mol modcolor 1 0 ColorID 9
+menu graphics on
+menu display on
+axes location Off
+scale by 1.2
+scale by 1.2
+#display ambientocclusion on
+#render TachyonInternal vmdscene.tga /usr/bin/open %s
+#exit
+# VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+# end of log file.

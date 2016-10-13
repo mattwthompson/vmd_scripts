@@ -1,0 +1,19 @@
+# VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+# Log file 'cdc.vmd', created by user mattthompson
+axes location Off
+menu display on
+menu graphics on
+display ambientocclusion on
+rotate y by -25
+rotate x by 15
+menu render on
+mol addrep 0
+mol modselect 0 0 type 1
+mol modselect 1 0 type 2
+mol modstyle 0 0 DynamicBonds 2.0 0.3 20.0
+mol modstyle 1 0 VDW 0.8 20.0
+mol modcolor 0 0 ColorID 9
+mol modcolor 1 0 ColorID 10
+mol modmaterial 0 0 AOEdgy
+mol modmaterial 1 0 AOEdgy
+#display resize 1100 1100
