@@ -3,12 +3,13 @@ axes location Off
 menu display on
 menu graphics on
 display ambientocclusion on
+display aodirect 0.8
 rotate y by 30
 rotate x by 30
 menu render on
 mol addrep 0
 mol addrep 0
-mol modselect 0 0 not resname BMIM and not resname Tf2N 
+mol modselect 0 0 not resname BMIM and not resname Tf2N  and not type ML
 mol modselect 1 0 resname BMIM
 mol modselect 2 0 resname Tf2N
 mol modstyle 0 0 VDW 0.8 30.0
