@@ -7,9 +7,9 @@ display ambientocclusion on
 menu render on
 mol addrep 0
 mol addrep 0
-mol modselect 0 0 resname GPH
-mol modselect 1 0 resname EMIM
-mol modselect 2 0 resname Tf2N
+mol modselect 0 0 resname GPH pores
+mol modselect 1 0 resname EMIM emim
+mol modselect 2 0 resname Tf2N tf2n
 mol modstyle 0 0 VDW 0.5 10.0
 mol modstyle 1 0 VDW 0.8 20.0
 mol modstyle 2 0 VDW 0.8 10.0
